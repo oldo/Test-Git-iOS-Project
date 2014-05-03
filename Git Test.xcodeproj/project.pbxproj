@@ -21,6 +21,7 @@
 		FA9559C31915290400E4FCE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9559A51915290300E4FCE8 /* UIKit.framework */; };
 		FA9559CB1915290400E4FCE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA9559C91915290400E4FCE8 /* InfoPlist.strings */; };
 		FA9559CD1915290400E4FCE8 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9559CC1915290400E4FCE8 /* Git_TestTests.m */; };
+		FA9559D819152B4500E4FCE8 /* ONTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9559D719152B4500E4FCE8 /* ONTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FA9559C81915290400E4FCE8 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		FA9559CA1915290400E4FCE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA9559CC1915290400E4FCE8 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FA9559D619152B4500E4FCE8 /* ONTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ONTest.h; path = ../ONTest.h; sourceTree = "<group>"; };
+		FA9559D719152B4500E4FCE8 /* ONTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ONTest.m; path = ../ONTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		FA9559A71915290300E4FCE8 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				FA9559D619152B4500E4FCE8 /* ONTest.h */,
+				FA9559D719152B4500E4FCE8 /* ONTest.m */,
 				FA9559B01915290300E4FCE8 /* ONAppDelegate.h */,
 				FA9559B11915290300E4FCE8 /* ONAppDelegate.m */,
 				FA9559B31915290300E4FCE8 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9559D819152B4500E4FCE8 /* ONTest.m in Sources */,
 				FA9559AE1915290300E4FCE8 /* main.m in Sources */,
 				FA9559B21915290300E4FCE8 /* ONAppDelegate.m in Sources */,
 				FA9559B81915290300E4FCE8 /* ONViewController.m in Sources */,
